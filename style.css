@@ -13,9 +13,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* ========== Common CSS ==========*/
+
+section {
+    padding: 25px 0;
+}
 .container {
     width: 80%;
     margin: auto;
+}
+
+.hilighted {
+    color: #ffad5a;
 }
 
 .primary-btn {
@@ -33,6 +42,13 @@ body {
 
 .primary-btn:hover {
     background: #f52828;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #13103a;
+    text-align: center;
 }
 
 /* ========== Hero Section CSS ==========*/
@@ -56,10 +72,6 @@ body {
     padding-left: 13px;
     position: relative;
     margin: 0;
-}
-
-.hero-text-area .hero-title .hilighted {
-    color: #ffad5a;
 }
 
 .hero-title::before {
@@ -92,4 +104,49 @@ body {
 
 .hero-img-area img {
     width: 80%;
+}
+
+/* ========== Mission Section CSS ==========*/
+
+.missions-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.mission {
+    width: 360px;
+    height: 376px;
+    border-radius: 26px;
+    padding: 25px 32px;
+    margin: 0 10px;
+}
+
+.mission img {
+    width: 141px;
+    height: 141px;
+}
+
+.mission-name {
+    margin: 12px 0 16px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.mission-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+}
+
+.green-bg {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.pink-bg {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.yellow-bg {
+    background: rgba(255, 244, 214, 0.8);
 }
