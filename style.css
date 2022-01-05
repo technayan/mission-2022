@@ -18,10 +18,29 @@ body {
     margin: auto;
 }
 
+.primary-btn {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    background: #ff5959;
+    color: #fff;
+    padding: 12px 38px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.primary-btn:hover {
+    background: #f52828;
+}
+
 /* ========== Hero Section CSS ==========*/
 
 .hero-area {
     display: flex;
+    height: 580px;
+    align-items: center;
 }
 
 .hero-text-area {
@@ -40,7 +59,7 @@ body {
 }
 
 .hero-text-area .hero-title .hilighted {
-    color: #702de3;
+    color: #ffad5a;
 }
 
 .hero-title::before {
@@ -52,7 +71,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 5px;
-    background: tomato;
+    background: #ff5959;
 }
 
 .hero-text-area .hero-text {
@@ -62,11 +81,15 @@ body {
     color: #3e3e3e;
 }
 
+.hero-text-area .hero-bottom-text {
+    margin-top: 33px !important;
+}
+
 .hero-img-area {
     width: 50%;
     text-align: right;
 }
 
 .hero-img-area img {
-    width: 70%;
+    width: 80%;
 }
