@@ -1,0 +1,72 @@
+/* ========== Fonts ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
+
+/* ========== Reset CSS ==========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* ========== Hero Section CSS ==========*/
+
+.hero-area {
+    display: flex;
+}
+
+.hero-text-area {
+    width: 50%;
+}
+
+.hero-text-area .hero-title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #333;
+    padding-left: 13px;
+    position: relative;
+    margin: 0;
+}
+
+.hero-text-area .hero-title .hilighted {
+    color: #702de3;
+}
+
+.hero-title::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 80%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    background: tomato;
+}
+
+.hero-text-area .hero-text {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3e3e3e;
+}
+
+.hero-img-area {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-img-area img {
+    width: 70%;
+}
