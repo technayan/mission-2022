@@ -16,7 +16,7 @@ body {
 /* ========== Common CSS ==========*/
 
 section {
-    padding: 25px 0;
+    padding: 40px 0;
 }
 .container {
     width: 80%;
@@ -44,6 +44,10 @@ section {
     background: #f52828;
 }
 
+.img-100 {
+    width: 100%;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 48px;
@@ -51,8 +55,19 @@ section {
     text-align: center;
 }
 
+.width-35 {
+    width: 35%;
+}
+
+.width-65 {
+    width: 65%;
+}
+
 /* ========== Hero Section CSS ==========*/
 
+.hero-section {
+    padding: 20px 0 !important;
+}
 .hero-area {
     display: flex;
     height: 580px;
@@ -119,7 +134,6 @@ section {
     height: 376px;
     border-radius: 26px;
     padding: 25px 32px;
-    margin: 0 10px;
 }
 
 .mission img {
@@ -130,6 +144,7 @@ section {
 .mission-name {
     margin: 12px 0 16px;
     font-size: 24px;
+    font-weight: 600;
     line-height: 36px;
 }
 
@@ -145,8 +160,40 @@ section {
 
 .pink-bg {
     background: rgba(255, 89, 89, 0.1);
+    margin: 0 20px;
 }
 
 .yellow-bg {
     background: rgba(255, 244, 214, 0.8);
 }
+
+/* ========== Develop Section CSS ==========*/
+.develop-section {
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 50px center;
+}
+.develop-area {
+    display: flex;
+}
+
+.develop-text-area {
+    padding-left: 72px;
+    margin-top: 30px;
+}
+
+.sub-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #333;
+    margin-bottom: 17px;
+}
+
+.sub-section-text {
+    font-size: 18px;
+    color: #3e3e3e;
+    line-height: 30px;
+}
+
