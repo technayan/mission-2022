@@ -44,9 +44,7 @@ section {
     background: #f52828;
 }
 
-.img-100 {
-    width: 100%;
-}
+
 
 .section-title {
     font-weight: 700;
@@ -59,8 +57,20 @@ section {
     width: 35%;
 }
 
+.width-50 {
+    width: 50%;
+}
+
 .width-65 {
     width: 65%;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-100 {
+    width: 100%;
 }
 
 /* ========== Hero Section CSS ==========*/
@@ -213,7 +223,7 @@ section {
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
-    background-position: 95% 110%;
+    background-position: 95% 100%;
 }
 
 .community-area {
@@ -223,4 +233,61 @@ section {
 
 .community-text-area {
     padding-right: 72px;
+}
+
+/* ========== Portfolio Section CSS ==========*/
+
+.porfolio-area {
+    padding: 85px 0;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-img-area {
+    text-align: center;
+    position: relative;
+}
+
+.first-shape {
+    position: absolute;
+    width: 147px;
+    left: 0;
+    top: -20%;
+    z-index: -1;
+}
+.second-shape {
+    position: absolute;
+    width: 77px;
+    left: 20px;
+    bottom: -10%;
+    z-index: -1;
+}
+.third-shape {
+    position: absolute;
+    width: 77px;
+    right: 5%;
+    top: 50%;
+    z-index: -1;
+}
+
+.portfolio-img{
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-text-area {
+    margin-left: 20px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #13103a;
+    line-height: 62px;
+}
+
+.portfolio-text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #3e3e3e;
+    margin-top: 16px;
 }
