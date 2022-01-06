@@ -24,14 +24,14 @@ section {
 }
 
 .hilighted {
-    color: #ffad5a;
+    color: #7746fd;
 }
 
 .primary-btn {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
-    background: #ff5959;
+    background: #9068ff;
     color: #fff;
     padding: 12px 38px;
     border-radius: 5px;
@@ -41,10 +41,8 @@ section {
 }
 
 .primary-btn:hover {
-    background: #f52828;
+    background: #7746fd;
 }
-
-
 
 .section-title {
     font-weight: 700;
@@ -108,7 +106,7 @@ section {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 5px;
-    background: #ff5959;
+    background: #7746fd;
 }
 
 .hero-text-area .hero-text {
@@ -166,18 +164,18 @@ section {
 }
 
 .green-bg {
-    background: rgba(79, 157, 166, 0.1);
+    background: rgba(119, 70, 253, 0.1)
 }
 .green-bg:hover {
-    background: rgba(79, 157, 166, 0.2);
+    background: rgba(119, 70, 253, 0.2)
 }
 
 .pink-bg {
-    background: rgba(255, 89, 89, 0.1);
+    background: rgba(236, 65, 118, 0.1);
     margin: 0 20px;
 }
 .pink-bg:hover {
-    background: rgba(255, 89, 89, 0.2);
+    background: rgba(236, 65, 118, 0.2);
 }
 
 .yellow-bg {
@@ -188,12 +186,14 @@ section {
 }
 
 /* ========== Develop Section CSS ==========*/
+
 .develop-section {
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: 50px center;
 }
+
 .develop-area {
     display: flex;
     align-items: center;
@@ -290,4 +290,41 @@ section {
     line-height: 30px;
     color: #3e3e3e;
     margin-top: 16px;
+}
+
+/* ========== Footer Section CSS ==========*/
+
+footer {
+    padding: 40px 0;
+    background: #0b0d17;
+}
+
+.footer-title {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-hilighted {
+    color: #ffad5a;
+}
+
+.copyright-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    color: #ffad5a;
 }
